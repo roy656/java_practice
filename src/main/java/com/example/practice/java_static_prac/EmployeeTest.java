@@ -1,4 +1,4 @@
-package com.example.practice.static_prac;
+package com.example.practice.java_static_prac;
 
 public class EmployeeTest {
 
