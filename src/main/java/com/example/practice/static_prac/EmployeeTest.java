@@ -7,7 +7,7 @@ public class EmployeeTest {
         Employee employeeChoi = new Employee();
         employeeChoi.setEmployeeName("Roy Choi");
 
-        System.out.println(Employee.serialNum);
+        System.out.println(Employee.getSerialNum());        // static 변수,메서드 는 클래스명으로 참조 가능
 
         Employee employeePark = new Employee();
         employeePark.setEmployeeName("Jin Park");
