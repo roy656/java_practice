@@ -6,13 +6,13 @@ public class EmployeeTest {
 
         Employee employeeChoi = new Employee();
         employeeChoi.setEmployeeName("Roy Choi");
-        System.out.println(employeeChoi.serialNum);
+
+        System.out.println(Employee.serialNum);
 
         Employee employeePark = new Employee();
         employeePark.setEmployeeName("Jin Park");
-        employeePark.serialNum++;
 
-        System.out.println(employeeChoi.serialNum);
-        System.out.println(employeePark.serialNum);
+        System.out.println(employeeChoi.getEmployeeName() + " 님의 사번은" + employeeChoi.getEmployeeId() + " 입니다.");
+        System.out.println(employeePark.getEmployeeName() + " 님의 사번은" + employeePark.getEmployeeId() + " 입니다.");
     }
 }
