@@ -17,7 +17,7 @@ public class BookTest {     // 객체 배열의 선언과 구현
         library[3] = new Book("성공4", "최명순");
         library[4] = new Book("성공5", "최명순");
 
-        for (Book book : library) {
+        for (Book book : library) {     // Book 객체를 배열에서 하나씩 꺼내와서 출력 확인
             System.out.println(book);
             book.showInfo();
         }
