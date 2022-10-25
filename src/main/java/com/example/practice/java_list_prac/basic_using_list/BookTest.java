@@ -11,11 +11,11 @@ public class BookTest {     // 객체 배열의 선언과 구현
 //            System.out.println(library[i]);       // 확인 할 경우 객체가 생성된것이 아니기 때문에 null 로 출력됨.
 //        }
 
-        library[0] = new Book("성공1", "최명순");    // 배열의 자리마다 객체를 직접 생성
-        library[1] = new Book("성공2", "최명순");
-        library[2] = new Book("성공3", "최명순");
-        library[3] = new Book("성공4", "최명순");
-        library[4] = new Book("성공5", "최명순");
+        library[0] = new Book("성공1", "Roy");    // 배열의 자리마다 객체를 직접 생성
+        library[1] = new Book("성공2", "Roy");
+        library[2] = new Book("성공3", "Roy");
+        library[3] = new Book("성공4", "Roy");
+        library[4] = new Book("성공5", "Roy");
 
         for (Book book : library) {     // Book 객체를 배열에서 하나씩 꺼내와서 출력 확인
             System.out.println(book);

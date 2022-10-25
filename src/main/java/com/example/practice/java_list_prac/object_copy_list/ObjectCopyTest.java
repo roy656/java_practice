@@ -9,11 +9,11 @@ public class ObjectCopyTest {
         Book[] library = new Book[5];
         Book[] copylibrary = new Book[5];
 
-        library[0] = new Book("성공1", "최명순");    // 배열의 자리마다 객체를 직접 생성
-        library[1] = new Book("성공2", "최명순");
-        library[2] = new Book("성공3", "최명순");
-        library[3] = new Book("성공4", "최명순");
-        library[4] = new Book("성공5", "최명순");
+        library[0] = new Book("성공1", "Roy");    // 배열의 자리마다 객체를 직접 생성
+        library[1] = new Book("성공2", "Roy");
+        library[2] = new Book("성공3", "Roy");
+        library[3] = new Book("성공4", "Roy");
+        library[4] = new Book("성공5", "Roy");
 
         System.arraycopy(library, 0, copylibrary, 0, 5);    // 파라미터 (복사할 배열, 의 인덱스, 복사될 배열, 의 인덱스, 복사할 배열길이)
 

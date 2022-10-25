@@ -4,13 +4,13 @@ public class StudentTest {
 
     public static void main(String[] args) {
 
-        Student studentChoi = new Student("최명순",1001);
+        Student studentChoi = new Student("Roy",1001);
 
         studentChoi.addSubject("국어", 100);
         studentChoi.addSubject("수학", 80);
         studentChoi.addSubject("영어", 90);
 
-        Student studentPark = new Student("박혜진", 1002);
+        Student studentPark = new Student("Olivia", 1002);
 
         studentPark.addSubject("국어", 70);
         studentPark.addSubject("수학", 90);
