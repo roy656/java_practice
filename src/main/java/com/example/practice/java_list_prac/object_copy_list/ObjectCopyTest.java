@@ -1,4 +1,6 @@
-package com.example.practice.java_list_prac;
+package com.example.practice.java_list_prac.object_copy_list;
+
+import com.example.practice.java_list_prac.basic_using_list.Book;
 
 public class ObjectCopyTest {
 

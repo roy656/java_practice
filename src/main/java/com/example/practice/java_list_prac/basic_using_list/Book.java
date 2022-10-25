@@ -1,4 +1,4 @@
-package com.example.practice.java_list_prac;
+package com.example.practice.java_list_prac.basic_using_list;
 
 public class Book {
 
