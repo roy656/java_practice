@@ -18,8 +18,7 @@ public class VIPCustomer extends Customer {
     @Override                           // 상위 클래스로부터 재정의 된 메소드, 메소드명,매개변수의 개수, 반환타입 은 변경 될 수 없다.
     public int calPrice(int price) {
         bonusPoint += price * bonusRatio;
-        price -= (int) price * discountRatio;
-        return price;
+        return price - (int) (price * discountRatio);
     }
 
 
