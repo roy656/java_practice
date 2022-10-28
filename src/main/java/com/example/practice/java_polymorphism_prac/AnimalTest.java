@@ -45,9 +45,9 @@ public class AnimalTest {
 
     public static void main(String[] args) {
 
-        Animal human = new Animal();
-        Animal tiger = new Animal();
-        Animal eagle = new Animal();
+        Animal human = new Human();
+        Animal tiger = new Tioger();
+        Animal eagle = new Eagle();
 
         AnimalTest test = new AnimalTest();
         test.moveAnimal(human);
