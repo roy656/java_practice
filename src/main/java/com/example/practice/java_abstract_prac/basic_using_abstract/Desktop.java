@@ -1,4 +1,4 @@
-package com.example.practice.java_abstract_prac;
+package com.example.practice.java_abstract_prac.basic_using_abstract;
 
 public class Desktop extends Computer {
 
