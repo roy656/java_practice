@@ -1,7 +1,7 @@
-package com.example.practice.java_interface_prac.domain.userinfo.dao.oracle;
+package com.example.practice.java_interface_prac.basic_using_interface.domain.userinfo.dao.oracle;
 
-import com.example.practice.java_interface_prac.domain.userinfo.UserInfo;
-import com.example.practice.java_interface_prac.domain.userinfo.dao.UserInfoDao;
+import com.example.practice.java_interface_prac.basic_using_interface.domain.userinfo.UserInfo;
+import com.example.practice.java_interface_prac.basic_using_interface.domain.userinfo.dao.UserInfoDao;
 
 public class UserInfoOracleDao implements UserInfoDao {
     @Override

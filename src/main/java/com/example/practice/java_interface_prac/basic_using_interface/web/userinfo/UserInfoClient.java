@@ -1,11 +1,10 @@
-package com.example.practice.java_interface_prac.web.userinfo;
+package com.example.practice.java_interface_prac.basic_using_interface.web.userinfo;
 
-import com.example.practice.java_interface_prac.domain.userinfo.UserInfo;
-import com.example.practice.java_interface_prac.domain.userinfo.dao.UserInfoDao;
-import com.example.practice.java_interface_prac.domain.userinfo.dao.mysql.UserInfoMysqlDao;
-import com.example.practice.java_interface_prac.domain.userinfo.dao.oracle.UserInfoOracleDao;
+import com.example.practice.java_interface_prac.basic_using_interface.domain.userinfo.dao.UserInfoDao;
+import com.example.practice.java_interface_prac.basic_using_interface.domain.userinfo.dao.mysql.UserInfoMysqlDao;
+import com.example.practice.java_interface_prac.basic_using_interface.domain.userinfo.dao.oracle.UserInfoOracleDao;
+import com.example.practice.java_interface_prac.basic_using_interface.domain.userinfo.UserInfo;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;

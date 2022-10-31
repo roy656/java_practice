@@ -1,4 +1,4 @@
-package com.example.practice.java_interface_prac.domain.userinfo;
+package com.example.practice.java_interface_prac.basic_using_interface.domain.userinfo;
 
 public class UserInfo {
 

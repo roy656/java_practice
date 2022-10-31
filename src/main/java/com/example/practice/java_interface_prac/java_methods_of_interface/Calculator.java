@@ -1,4 +1,4 @@
-package com.example.practice.java_interface_methods_prac;
+package com.example.practice.java_interface_prac.java_methods_of_interface;
 
 public abstract class Calculator implements Cal {
 
