@@ -1,4 +1,4 @@
-package com.example.practice.java_interface_prac.re_practicing;
+package com.example.practice.java_abstract_prac.re_practicing;
 
 public abstract class PlayerLevel {
 
