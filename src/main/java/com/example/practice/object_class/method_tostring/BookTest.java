@@ -1,4 +1,4 @@
-package com.example.practice.object_class;
+package com.example.practice.object_class.method_tostring;
 
 
 class Book {
