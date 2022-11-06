@@ -1,5 +1,7 @@
 package com.example.practice.data_structure.array_list;
 
+import static org.apache.logging.log4j.ThreadContext.isEmpty;
+
 public class MyArray {
 
     int[] intArr;
@@ -46,11 +48,31 @@ public class MyArray {
         }
 
         intArr[position] = num;
-        count++;
+        count++;                                    // 메소드 실행때 마다 요소가 하나씩 늘어난다
 
     }
 
-    public void removeElement(int position) {
+    public int removeElement(int position) {
+        int ret = ERROR_NUM;
+
+        if( isEmpty() ) {
+            System.out.println("Array is Empty");
+            return ret;
+        }
+
+        if( position<0 || position>=count-1) {
+            return ret;
+        }
+
+        ret = intArr[position];
+
+        for(int i=position; i<count-1; i++) {
+            intArr[i] = intArr[i+1];                // 넣을 위치 뒤의 인덱스 부터 하나씩 땡기기
+        }
+        count--;                                    // 메소드 실행때 마다 요소가 하나씩 적어진다
+
+        return ret;
+
     }
 
 
