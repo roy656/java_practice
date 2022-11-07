@@ -32,7 +32,7 @@ public class MyLinkedList {             // LinkedList 에서는 데이터를 조
         return newNode;
     }
 
-    public MyListNode inserElement(int position, String data) {
+    public MyListNode insertElement(int position, String data) {
 
         int i;
         MyListNode tempNode = head;
@@ -82,5 +82,60 @@ public class MyLinkedList {             // LinkedList 에서는 데이터를 조
 
         count--;
         return tempNode;
+    }
+
+    public String getElement(int position)
+    {
+        int i;
+        MyListNode tempNode = head;
+
+        if(position >= count ){
+            System.out.println("검색 위치 오류 입니다. 현재 리스트의 개수는 " + count +"개 입니다.");
+            return new String("error");
+        }
+
+        if(position == 0){  // 맨 앞 인 경우
+
+            return head.getData();
+        }
+
+        for(i=0; i<position; i++){
+            tempNode = tempNode.next;
+
+        }
+        return tempNode.getData();
+    }
+
+    public int getSize() {
+        return count;
+    }
+
+    public void printAll() {
+
+        if(count == 0){
+            System.out.println("출력할 내용이 없습니다.");
+            return;
+        }
+
+        MyListNode temp = head;
+
+        while(temp != null){
+            System.out.print(temp.getData());
+            temp = temp.next;
+            if(temp!=null){
+                System.out.print("->");
+            }
+        }
+        System.out.println("");
+    }
+
+    public boolean isEmpty() {
+        if(head == null) return true;
+        else return false;
+    }
+
+    public void removeAll() {
+        head = null;
+        count = 0;
     }
 }
