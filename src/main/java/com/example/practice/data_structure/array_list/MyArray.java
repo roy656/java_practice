@@ -95,7 +95,7 @@ public class MyArray {
         return intArr[position];
     }
 
-    public void printll() {
+    public void printAll() {
         if (count == 0) {
             System.out.println("출력할 내용이 없습니다.");
         }
