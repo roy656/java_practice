@@ -1,4 +1,8 @@
-package com.example.practice.java_generic_prac;
+package com.example.practice.java_generic_prac.generic_extends;
+
+import com.example.practice.java_generic_prac.basic_using_generic.GenericPrinter;
+import com.example.practice.java_generic_prac.basic_using_generic.Plastic;
+import com.example.practice.java_generic_prac.basic_using_generic.Powder;
 
 public class GenericPrinterTest {
 

@@ -1,4 +1,4 @@
-package com.example.practice.java_generic_prac;
+package com.example.practice.java_generic_prac.basic_using_generic;
 
 public class Plastic {
 
