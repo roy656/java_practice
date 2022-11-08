@@ -1,6 +1,6 @@
-package com.example.practice.data_structure.array_stack;
+package com.example.practice.data_structure_prac.array_stack;
 
-import com.example.practice.data_structure.array_list.MyArray;
+import com.example.practice.data_structure_prac.array_list.MyArray;
 
 public class MyArrayStack {
 

@@ -1,4 +1,4 @@
-package com.example.practice.data_structure.linked_list;
+package com.example.practice.data_structure_prac.linked_list;
 
 public class MyListNode {
 

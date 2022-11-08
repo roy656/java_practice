@@ -1,7 +1,7 @@
-package com.example.practice.data_structure.queue;
+package com.example.practice.data_structure_prac.queue;
 
-import com.example.practice.data_structure.linked_list.MyLinkedList;
-import com.example.practice.data_structure.linked_list.MyListNode;
+import com.example.practice.data_structure_prac.linked_list.MyLinkedList;
+import com.example.practice.data_structure_prac.linked_list.MyListNode;
 
 interface Queue {
 

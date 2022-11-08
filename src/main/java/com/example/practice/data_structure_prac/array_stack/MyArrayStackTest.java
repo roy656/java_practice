@@ -1,4 +1,4 @@
-package com.example.practice.data_structure.array_stack;
+package com.example.practice.data_structure_prac.array_stack;
 
 public class MyArrayStackTest {
 

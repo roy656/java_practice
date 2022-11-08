@@ -1,4 +1,4 @@
-package com.example.practice.data_structure.linked_list;
+package com.example.practice.data_structure_prac.linked_list;
 
 public class MyLinkedList {             // LinkedList 에서는 데이터를 조작할때 원하는 곳의 이전 노드를 알아야 한다.
 

@@ -1,4 +1,4 @@
-package com.example.practice.data_structure.queue;
+package com.example.practice.data_structure_prac.queue;
 
 public class MyLinkedQueueTest {
 

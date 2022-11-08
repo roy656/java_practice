@@ -1,4 +1,4 @@
-package com.example.practice.data_structure.array_list;
+package com.example.practice.data_structure_prac.array_list;
 
 public class MyArrayTest {
 

@@ -1,6 +1,4 @@
-package com.example.practice.data_structure.array_list;
-
-import static org.apache.logging.log4j.ThreadContext.isEmpty;
+package com.example.practice.data_structure_prac.array_list;
 
 public class MyArray {
 
