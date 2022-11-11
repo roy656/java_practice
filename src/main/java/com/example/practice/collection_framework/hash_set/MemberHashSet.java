@@ -1,4 +1,4 @@
-package com.example.practice.collection_framework.set;
+package com.example.practice.collection_framework.hash_set;
 
 import java.util.HashSet;
 import java.util.Iterator;
