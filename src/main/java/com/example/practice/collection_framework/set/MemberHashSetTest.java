@@ -1,8 +1,6 @@
 package com.example.practice.collection_framework.set;
 
-import com.example.practice.collection_framework.arraylist.MemberArrayList;
-
-public class MemberArrayListTest {
+public class MemberHashSetTest {
 
     public static void main(String[] args) {
 
@@ -18,7 +16,7 @@ public class MemberArrayListTest {
         memberHashSet.addMember(memberKwan);
         memberHashSet.addMember(memberMartin);
 
-        Member memberOli = new Member(10002, "Olivia");
+        Member memberOli = new Member(10002, "Olivia");     // HashSet 에는 동일한 값을 가지는 객체가 들어갈 수 없다
         memberHashSet.addMember(memberOli);
 
         memberHashSet.showAllMember();

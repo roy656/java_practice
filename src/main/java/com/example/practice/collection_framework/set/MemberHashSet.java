@@ -12,12 +12,13 @@ public class MemberHashSet {
     }
 
     public MemberHashSet(int size) {
-        hashSet = new HashSet<>();
+        hashSet = new HashSet<>(size);
     }
 
     public void addMember(Member member) {
         hashSet.add(member);
     }
+
     public boolean removeMember(int memberId) {
 
         // ---------------- ArrayList 이용 시 ----------------
@@ -59,21 +60,5 @@ public class MemberHashSet {
         System.out.println();
     }
 
-    @Override
-    public boolean equals(Object obj) {
 
-        if( obj instanceof Member) {
-
-            Member member = (Member) obj;
-            if( this.memberId == member.memberId) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    @Override
-    public int hashCode() {
-
-    }
 }
