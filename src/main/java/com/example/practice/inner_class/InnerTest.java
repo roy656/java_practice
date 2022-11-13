@@ -26,14 +26,38 @@ class OutClass {
     public void usingClass() {
         inClass.inTest();
     }
+
+    static class InStaticClass {
+
+        int iNum = 100;
+        static int sINum = 200;
+
+        void inTest() {         // 외부 클래스의 Instance 변수는 사용 불가. 클래스 객체 생성이 안되었을수 있기 때문에.
+            System.out.println("InClass num = " + iNum + "(내부 클래스의 인스턴스 변수)");
+            System.out.println("OutClass sNum = " + sNum + "(외부 클래스의 static 변수)");
+            System.out.println("InClass sNum = " + sINum + "(내부 클래스의 인스턴스 변수)");
+        }
+
+        static void sTest() {
+//            System.out.println("InClass num = " + iNum + "(내부 클래스의 인스턴스 변수)");        // static 메서드는 객체 생성과 상관없이 호출됡수 있기 때문에
+            System.out.println("OutClass sNum = " + sNum + "(외부 클래스의 static 변수)");      // 해당 변수는 생성이 안되었을수 있기 때문에 사용 불가
+            System.out.println("InClass sNum = " + sINum + "(내부 클래스의 인스턴스 변수)");
+        }
+
+    }
 }
 
 public class InnerTest {
 
     public static void main(String[] args) {
 
-        OutClass outClass = new OutClass();
-        outClass.usingClass();
+//        OutClass outClass = new OutClass();       // 내부 클래스 사용.
+//        outClass.usingClass();
 
+        OutClass.InStaticClass inStaticClass = new OutClass.InStaticClass();    // 외부 클래스에서 바로 static 클래스 생성 가능.
+        inStaticClass.inTest();
+
+
+        OutClass.InStaticClass.sTest();
     }
 }
