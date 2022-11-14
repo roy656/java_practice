@@ -1,4 +1,4 @@
-package com.example.practice.inner_class;
+package com.example.practice.inner_class.basic_using_innerclass;
 
 class OutClass {
 
