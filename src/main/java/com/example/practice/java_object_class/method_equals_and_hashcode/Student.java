@@ -1,4 +1,4 @@
-package com.example.practice.object_class.method_equals_and_hashcode;
+package com.example.practice.java_object_class.method_equals_and_hashcode;
 
 public class Student {
 

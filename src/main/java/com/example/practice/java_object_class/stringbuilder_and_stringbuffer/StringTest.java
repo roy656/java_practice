@@ -1,4 +1,4 @@
-package com.example.practice.object_class.stringbuilder_and_stringbuffer;
+package com.example.practice.java_object_class.stringbuilder_and_stringbuffer;
 
 public class StringTest {
 

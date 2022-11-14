@@ -1,4 +1,4 @@
-package com.example.practice.collection_framework.tree_set;
+package com.example.practice.java_collection_framework.tree_set;
 
 public class Member implements Comparable<Member>{
 

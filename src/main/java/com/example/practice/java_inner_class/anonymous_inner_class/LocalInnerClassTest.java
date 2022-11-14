@@ -1,4 +1,4 @@
-package com.example.practice.inner_class.anonymous_inner_class;
+package com.example.practice.java_inner_class.anonymous_inner_class;
 
 
 class Outer2 {               // 외부 클래스

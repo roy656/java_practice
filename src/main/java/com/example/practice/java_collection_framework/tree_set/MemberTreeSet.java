@@ -1,4 +1,4 @@
-package com.example.practice.collection_framework.tree_set;
+package com.example.practice.java_collection_framework.tree_set;
 
 import java.util.Iterator;
 import java.util.TreeSet;

@@ -1,4 +1,4 @@
-package com.example.practice.collection_framework.hash_set;
+package com.example.practice.java_collection_framework.hash_set;
 
 public class MemberHashSetTest {
 

@@ -1,4 +1,4 @@
-package com.example.practice.collection_framework.arraylist;
+package com.example.practice.java_collection_framework.arraylist;
 
 import java.util.ArrayList;
 import java.util.Iterator;
