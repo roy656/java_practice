@@ -23,6 +23,6 @@ public class ArrayIndexException {
             System.out.println(e.toString());       // toString 을 쓰면 해당 exception 의 풀네임 과 메세지를 포함해 보여준다.
         }
 
-        System.out.println("here !!!");
+        System.out.println("비정상 종료 되지 않고 프로그램은 계속 실행중");
     }
 }
