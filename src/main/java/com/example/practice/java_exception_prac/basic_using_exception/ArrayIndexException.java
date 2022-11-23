@@ -1,4 +1,4 @@
-package com.example.practice.java_exception_prac;
+package com.example.practice.java_exception_prac.basic_using_exception;
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ public class ArrayIndexException {
 
 //        for(int i = 0; i <= 5; i++) {           // 오류 발 / 배열의 인덱스 범위를 벗어남
 //            System.out.println(arr[i]);         // java.lang.ArrayIndexOutOfBoundsException: 5
-//                                                //at com.example.practice.java_exception_prac.ArrayIndexException.main(ArrayIndexException.java:12)
+//                                                //at com.example.practice.java_exception_prac.basic_using_exception.ArrayIndexException.main(ArrayIndexException.java:12)
 //        }
 
 
