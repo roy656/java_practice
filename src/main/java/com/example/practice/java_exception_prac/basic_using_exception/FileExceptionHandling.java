@@ -1,4 +1,4 @@
-package com.example.practice.java_exception_prac;
+package com.example.practice.java_exception_prac.basic_using_exception;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
