@@ -1,4 +1,4 @@
-package com.example.practice.java_io_stream_prac;
+package com.example.practice.java_io_stream_prac.inputstream;
 
 import java.io.FileInputStream;
 import java.io.IOException;
