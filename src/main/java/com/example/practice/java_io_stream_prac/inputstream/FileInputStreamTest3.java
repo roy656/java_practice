@@ -17,6 +17,7 @@ public class FileInputStreamTest3 {
 
             while((i = fis.read(bt)) != -1) {       // 파일 내용을 끝까지 읽도록 while 문 작성
                                                     // * read(byte bt[]) - read 메서드에 바이트 배열을 넣으면 읽은 자료의 바이트 수를 반환.
+                                                    // read 메서드 중 offset 값과 원하는 길이 를 인자로 넣으면 원하는 위치 부터 몇개까지 읽기 가능.
 
                 for(int j=0; j<i; j++) {            // for 문 으로 한 묶음씩 꺼내서 출력
                     System.out.print((char)bt[j]);  // 반환값이 int 이므로 char 로 형변환
