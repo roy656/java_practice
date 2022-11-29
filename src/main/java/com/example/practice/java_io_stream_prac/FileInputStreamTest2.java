@@ -1,10 +1,11 @@
 package com.example.practice.java_io_stream_prac;
 
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.IOException;
 
 public class FileInputStreamTest2 {
+
+    // FileInputStream 은 파일에서 바이트 단위로 자료를 읽는다.
 
     public static void main(String[] args) {
 
