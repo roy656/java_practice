@@ -21,4 +21,5 @@ public class SystemInTest {
             throw new RuntimeException(e);
         }
     }
+    // 표준 입출력 스트림은 따로 close 를 하지 않아도 됨.
 }
