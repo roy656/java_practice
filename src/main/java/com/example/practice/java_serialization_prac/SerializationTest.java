@@ -2,13 +2,10 @@ package com.example.practice.java_serialization_prac;
 
 import java.io.*;
 
-
 /*
 
 인스턴스의 상태를 그대로 파일 저장하거나 네트웍으로 전송하고 (serialization) 이를 다시 복원(deserialization) 하는 방식
-
 자바에서는 보조 스트림을 활용하여 직렬화를 제공함
-
 ObjectInputStream 과 ObjectOutputStream
 
  */
@@ -18,6 +15,8 @@ class Person implements Serializable{
     String name;
     String job;
 
+    transient String address;       // 직렬화가 불가능하거나, 직렬화를 원치 않는 멤버에
+                                    // transient 를 적용하면 직렬화가 안되어 null 로 들어간다.
     public Person() {
     }
     public Person(String name, String job) {
@@ -67,3 +66,21 @@ public class SerializationTest {
 
     }
 }
+
+/*
+프로그래머가 직접 객체를 읽고 쓰는 코드를 구현하기 원하면 Externalizable 를 implements 하면 된다.
+writerExternal()과 readExternal()메서드를 구현해야 함
+
+Ex) @Override
+	public void writeExternal(ObjectOutput out) throws IOException {
+		out.writeUTF(name);
+		//out.writeUTF(job);
+	}
+
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		name = in.readUTF();
+		//job = in.readUTF();
+	}
+
+ */
