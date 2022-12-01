@@ -2,6 +2,7 @@ package com.example.practice.java_io_stream_prac.decorator_pattern;
 
 /*
  Decorator Pattern 으로 여러종류의 커피 만들기 예제
+ 상속 대비 확장성이 좋은편
  */
 
 public class CoffeeTest {
